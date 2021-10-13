@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Reset */
+* {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 92, 167);
+    background: rgb(52, 152, 249);
+    background:
+        linear-gradient(90deg,
+            rgba(52, 152, 249, 1) 0%,
+            rgba(55, 204, 173, 1) 100%);
+}
+
+/* Main */
+.whiteSquare {
+    display: grid;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fhotpot.ai%2Fcolorize-picture&psig=AOvVaw0O7fMhFGTR48BiX1jWpSTj&ust=1634158851464000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNj0-6LixfMCFQAAAAAdAAAAABAD);
+    height: 57vh;
+    align-content: space-around;
+    margin: 39% 9% 4% 8%;
+    border: white 3px solid;
+    border-radius: 27px 27px;
+}
+
+.moon img {
+    width: 7%;
+    margin: -3% 0% -3% 48%;
+}
+
+.input-text {
+    margin: 11% 18% 10% 22%;
+    font-size: 1em;
+    display: block;
+    color: #000064;
+    border: white 5px solid;
+    border-radius: 7px 7px;
+}
+
+button {
+    color: white;
+    margin: 0% -45% -10% 9%;
+    border: white 2px solid;
+    border-radius: 7px 7px;
+    font-size: 1em;
+    padding: 6% 31%;
+}
+
+.arrow {
+    margin: -36% 0% -13% 108%;
+}
+
+.arrow i {
+    width: 0px;
+}
+
+/* Footer */
+footer {
+    margin: 0 0 0 22%;
+    font-size: 0.8em;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
